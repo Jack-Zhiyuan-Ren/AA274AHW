@@ -1,0 +1,22 @@
+[0.022s] Invoking command in '/home/jack/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake /home/jack/autonomy_ws/src/autonomy_repo -DCMAKE_INSTALL_PREFIX=/home/jack/autonomy_ws/install/autonomy_repo
+[0.091s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.251s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.266s] Traceback (most recent call last):
+[0.266s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.267s]     from catkin_pkg.package import parse_package_string
+[0.267s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.269s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.269s]   execute_process(/home/.venv/bin/python3
+[0.269s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.269s]   /home/jack/autonomy_ws/src/autonomy_repo/package.xml
+[0.269s]   /home/jack/autonomy_ws/build/autonomy_repo/ament_cmake_core/package.cmake)
+[0.269s]   returned error code 1
+[0.270s] Call Stack (most recent call first):
+[0.270s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.270s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.270s]   CMakeLists.txt:30 (ament_lint_auto_find_test_dependencies)
+[0.270s] 
+[0.270s] [0m
+[0.270s] -- Configuring incomplete, errors occurred!
+[0.270s] See also "/home/jack/autonomy_ws/build/autonomy_repo/CMakeFiles/CMakeOutput.log".
+[0.276s] Invoked command in '/home/jack/autonomy_ws/build/autonomy_repo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake /home/jack/autonomy_ws/src/autonomy_repo -DCMAKE_INSTALL_PREFIX=/home/jack/autonomy_ws/install/autonomy_repo
